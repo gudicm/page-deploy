@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "build": "npm run build:app1 && npm run build:app2",
+        "build:app1": "cd app1 && npm run build",
+        "build:app2": "cd app2 && npm run build"
+    }
+}
